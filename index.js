@@ -10,7 +10,7 @@ count.innerHTML = setCount;
 
 
 
-var backImgPath = setCount === 0 ? 'bg1.jpg' : 'bg2.jpg'
+var backImgPath = setCount % 2 === 0 ? 'bg1.jpg' : 'bg2.jpg'
 
 backimg.src = backImgPath;
 
