@@ -9,9 +9,11 @@ setCount = setCount > 0 ? setCount -1 : 0;
 count.innerHTML = setCount;
 
 
+count.style.fontSize = "800px";
+// var backImgPath = setCount % 2 === 0 ? 'bg1.jpg' : 'bg2.jpg'
 
-var backImgPath = setCount % 2 === 0 ? 'bg1.jpg' : 'bg2.jpg'
+// backimg.src = backImgPath;
 
-backimg.src = backImgPath;
+
 
 },1000);
